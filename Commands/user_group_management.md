@@ -5,7 +5,7 @@ System users – Used by services (apache, nginx, mysql)
 Normal users – Human users for login
 
 2. Important Files
-File Purpose
+File Purpose:
 /etc/passwd	Stores user account information
 /etc/shadow	Stores encrypted passwords
 /etc/group	Stores group information
