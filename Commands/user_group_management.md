@@ -22,8 +22,8 @@ id username
 List logged-in users
 who
 
-6.Delete a User
-sudo userdel username
+6. Delete a User
+   sudo userdel username
 
 7. Groups in Linux
 Groups are used to assign permissions to multiple users at once.
