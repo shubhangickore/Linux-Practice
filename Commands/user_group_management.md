@@ -5,7 +5,7 @@ System users – Used by services (apache, nginx, mysql)
 Normal users – Human users for login
 
 2. Important Files
-File Purpose:
+File Purpose
 /etc/passwd	Stores user account information
 /etc/shadow	Stores encrypted passwords
 /etc/group	Stores group information
@@ -14,7 +14,7 @@ File Purpose:
 sudo useradd username
 
 4. Set or Change User Password
-sudo passwd username
+sudo passwd username.
 
 5. User Information
 Check user details
