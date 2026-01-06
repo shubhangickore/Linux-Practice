@@ -10,8 +10,7 @@ File Purpose
 /etc/shadow	Stores encrypted passwords
 /etc/group	Stores group information
 
-3. Create a User
-sudo useradd username
+3. Create a Usersudo useradd username
 
 4. Set or Change User Password
 sudo passwd username.
