@@ -40,7 +40,7 @@ sudo usermod -aG groupname username
 sudo usermod -g groupname username
 
 11. Check Group Information
-groups username
+    groups username
 
 12. Delete a Group
 sudo groupdel groupname
