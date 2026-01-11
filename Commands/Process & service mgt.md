@@ -1,4 +1,4 @@
-ps -ef :
+ps -ef -
 List running processes	
 ps -ef:
 top	Interactive process monitor	top
