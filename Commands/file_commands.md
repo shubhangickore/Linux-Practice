@@ -1,5 +1,4 @@
-Here are the list of commands
-used in linux systems
+
 pwd – Print Working Directory
 
 ls – List files and directories 
