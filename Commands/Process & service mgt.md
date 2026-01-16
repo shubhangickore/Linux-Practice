@@ -7,6 +7,7 @@ Kill a process	kill 1234
 systemctl start :
 service	Start service	sudo systemctl start httpd
 systemctl stop :
+
 service	Stop service	sudo systemctl stop httpd
 systemctl status : 
 service	Check status	sudo systemctl status httpd
