@@ -1,0 +1,33 @@
+1. lsblk
+Use: Displays block devices (disks, partitions, LVM) in a tree format.
+Why used: To identify attached disks and partitions.
+
+2. df
+Use: Shows disk space usage of mounted file systems.
+Why used: To check available and used disk space.
+df -h
+
+3. du
+Use: Displays disk usage of files and directories.
+Why used: To find which directory is consuming more space.
+du -sh /var/log
+
+4. mount
+Use: Mounts a filesystem to a directory.
+Why used: To make a disk/partition accessible.
+mount /dev/sdb1 /mnt
+
+5. umount
+Use: Unmounts a filesystem.
+Why used: Before removing a disk safely.
+umount /mnt
+
+6. blkid
+Use: Displays UUID and filesystem type of block devices.
+Why used: Required for permanent mounting using /etc/fstab.
+blkid
+
+7. fdisk
+Use: Creates, deletes, and manages disk partitions (MBR).
+Why used: Partitioning new disks.
+fdisk /dev/sdb
