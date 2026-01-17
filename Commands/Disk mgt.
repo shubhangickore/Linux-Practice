@@ -41,3 +41,13 @@ parted /dev/sdb
 Use: Creates a filesystem on a partition.
 Why used: To format a disk.
 mkfs.ext4 /dev/sdb1
+
+10. fsck
+Use: Checks and repairs filesystem errors.
+Why used: Disk consistency check.
+fsck /dev/sdb1
+
+11. mount -a
+Use: Mounts all filesystems mentioned in /etc/fstab.
+Why used: To test fstab entries.
+mount -a
