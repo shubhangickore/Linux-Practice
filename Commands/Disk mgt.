@@ -31,3 +31,13 @@ blkid
 Use: Creates, deletes, and manages disk partitions (MBR).
 Why used: Partitioning new disks.
 fdisk /dev/sdb
+
+8. parted
+Use: Advanced disk partitioning tool (supports GPT).
+Why used: Used for large disks (>2TB).
+parted /dev/sdb
+
+9. mkfs
+Use: Creates a filesystem on a partition.
+Why used: To format a disk.
+mkfs.ext4 /dev/sdb1
