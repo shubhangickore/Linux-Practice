@@ -14,3 +14,8 @@ ping 8.8.8.8
 Displays socket and port information (replacement for netstat).
 ss -tuln            # Show listening ports
 ss -tn              # Show active TCP connections
+
+4. netstat (legacy but still asked)
+Shows network connections and ports.
+netstat -tuln
+netstat -rn
