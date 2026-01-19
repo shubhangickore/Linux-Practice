@@ -9,3 +9,8 @@ ip link set eth0 up # Bring interface up
 Checks connectivity between systems.
 ping google.com
 ping 8.8.8.8
+
+3. ss
+Displays socket and port information (replacement for netstat).
+ss -tuln            # Show listening ports
+ss -tn              # Show active TCP connections
