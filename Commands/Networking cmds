@@ -19,3 +19,8 @@ ss -tn              # Show active TCP connections
 Shows network connections and ports.
 netstat -tuln
 netstat -rn
+
+5. curl
+Transfers data from or to a server (API & web testing).
+curl google.com
+curl -I google.com  # Show HTTP headers
