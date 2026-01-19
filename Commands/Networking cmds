@@ -24,3 +24,6 @@ netstat -rn
 Transfers data from or to a server (API & web testing).
 curl google.com
 curl -I google.com  # Show HTTP headers
+
+
+
