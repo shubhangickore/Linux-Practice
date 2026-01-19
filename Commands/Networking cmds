@@ -1,1 +1,11 @@
+1. ip
+Modern replacement for ifconfig and route.
+ip addr show        # Show IP addresses
+ip link show        # Show network interfaces
+ip route show       # Show routing table
+ip link set eth0 up # Bring interface up
 
+2. ping
+Checks connectivity between systems.
+ping google.com
+ping 8.8.8.8
