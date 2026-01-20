@@ -47,7 +47,7 @@ Use: Checks and repairs filesystem errors.
 Why used: Disk consistency check.
 fsck /dev/sdb1
 
-11. mount
+11. mount -a 
 Use: Mounts all filesystems mentioned in /etc/fstab.
 Why used: To test fstab entries.
 mount -a
